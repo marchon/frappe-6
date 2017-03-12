@@ -138,7 +138,7 @@ apps/frappe/frappe/config/desk.py +36,Event and other calendars.,Събития 
 apps/frappe/frappe/public/js/frappe/views/reports/reportview.js +756,Drag to sort columns,"Плъзнете, за да сортирате колоните"
 apps/frappe/frappe/print/page/print_format_builder/print_format_builder_column_selector.html +2,Widths can be set in px or %.,Widths могат да се задават в PX или%.
 apps/frappe/frappe/public/js/frappe/form/print.js +98,Start,Начало
-DocType: User,First Name,Първо Име
+DocType: User,First Name,Име
 DocType: Portal Settings,Standard Sidebar Menu,Standard Sidebar Menu
 apps/frappe/frappe/core/doctype/file/file.py +167,Cannot delete Home and Attachments folders,Не може да се изтрие и вътрешни Прикачени файлове папки
 apps/frappe/frappe/config/desk.py +29,Files,файлове
@@ -438,7 +438,7 @@ DocType: ToDo,High,Високо
 DocType: User,Male,Мъжки
 DocType: Communication,From Full Name,От Пълно име
 apps/frappe/frappe/desk/query_report.py +19,You don't have access to Report: {0},Вие нямате достъп до Доклад: {0}
-DocType: User,Send Welcome Email,Изпрати Welcome Email
+DocType: User,Send Welcome Email,Изпрати имейл за добре дошли
 apps/frappe/frappe/core/page/user_permissions/user_permissions.js +132,Upload CSV file containing all user permissions in the same format as Download.,"Качване на CSV файл, съдържащ всички потребителски разрешения в същия формат като Download."
 apps/frappe/frappe/public/js/frappe/ui/filters/filters.js +630,Remove Filter,Премахване на филтъра
 apps/frappe/frappe/config/setup.py +108,Bulk Rename,Bulk Rename
@@ -469,7 +469,7 @@ apps/frappe/frappe/core/doctype/doctype/doctype.py +353,'In List View' not allow
 apps/frappe/frappe/templates/includes/comments/comments.html +38,Your Email Id,Вашият e-mail Id
 DocType: Custom Field,Select the label after which you want to insert new field.,Изберете етикета след която искате да вмъкнете нова област.
 ,Document Share Report,Документ Сподели Съобщи
-DocType: User,Last Login,Last Login
+DocType: User,Last Login,Последно влизане
 apps/frappe/frappe/core/doctype/doctype/doctype.py +489,Fieldname is required in row {0},Fieldname се изисква в ред {0}
 apps/frappe/frappe/print/page/print_format_builder/print_format_builder_column_selector.html +4,Column,Колона
 DocType: Custom Field,Adds a custom field to a DocType,Добавя потребителско поле към DocType
@@ -503,7 +503,7 @@ DocType: Workflow State,share,дял
 apps/frappe/frappe/limits.py +28,"Your subscription expired on {0}. To renew, please send an email to {1}.","Абонаментът ви е изтекъл на {0}. За да се поднови, моля изпратете имейл на {1}."
 apps/frappe/frappe/config/setup.py +102,Set numbering series for transactions.,Определете номериране серия за сделки.
 apps/frappe/frappe/desk/like.py +38,You cannot like something that you created,"Вие не може да харесва нещо, което сте създали"
-DocType: User,Last IP,Последна IP
+DocType: User,Last IP,Последен IP адрес
 apps/frappe/frappe/core/page/usage_info/usage_info.js +20,Renew / Upgrade,Renew / Upgrade
 DocType: DocPerm,Filter records based on User Permissions defined for a user,"Филтър записи на базата на потребителски разрешения, определени за даден потребител"
 DocType: PayPal Settings,API Password,API парола
@@ -613,7 +613,7 @@ DocType: Workflow State,heart,сърце
 DocType: Role,Desk Access,Desk Access
 DocType: Workflow State,minus,минус
 apps/frappe/frappe/public/js/frappe/request.js +118,Server Error: Please check your server logs or contact tech support.,"Грешка в сървъра: Моля, проверете вашите сървърни регистрационни файлове или се свържете с техническата поддръжка."
-apps/frappe/frappe/core/doctype/user/user.py +211,Welcome email sent,"Добре дошли имейл, изпратен"
+apps/frappe/frappe/core/doctype/user/user.py +211,Welcome email sent,Имейлът за добре дошли е изпратен
 apps/frappe/frappe/public/js/frappe/views/calendar.js +92,Select dates to create a new ,"Изберете дати, за да създадете нов"
 apps/frappe/frappe/desk/page/setup_wizard/setup_wizard.js +370,Let's prepare the system for first use.,Нека да се подготви системата за първа употреба.
 apps/frappe/frappe/desk/page/applications/applications.js +129,Featured,Показани
@@ -671,7 +671,7 @@ apps/frappe/frappe/public/js/frappe/ui/toolbar/about.js +7,Open Source Applicati
 DocType: Website Theme,"Add the name of a ""Google Web Font"" e.g. ""Open Sans""",Добавете името на &quot;Google Web Font&quot; например &quot;Open Sans&quot;
 apps/frappe/frappe/public/js/frappe/request.js +123,Request Timed Out,Искане Timed Out
 DocType: DocType,Hide Toolbar,Скриване на лентата с инструменти
-DocType: User,Last Active,Последно:
+DocType: User,Last Active,Последна активност
 DocType: Email Account,SMTP Settings for outgoing emails,Настройки SMTP за изходящи имейли
 apps/frappe/frappe/core/page/data_import_tool/data_import_tool.js +206,Import Failed,Внос Неуспешно
 apps/frappe/frappe/templates/emails/password_update.html +3,Your password has been updated. Here is your new password,Паролата ви е бил актуализиран. Ето новата си парола
@@ -883,7 +883,7 @@ apps/frappe/frappe/public/js/frappe/ui/filters/filters.js +279,Filter {0} missin
 apps/frappe/frappe/core/doctype/communication/communication.py +82,Sorry! You cannot delete auto-generated comments,За съжаление! Не можете да изтриете автоматично генерирани коментари
 DocType: Website Theme,Style using CSS,"Style, използвайки CSS"
 DocType: Integration Request,Reference DocType,Референтен DocType
-DocType: User,System User,Система за потребителя
+DocType: User,System User,Системен потребител
 DocType: Report,Is Standard,Е стандартна
 DocType: DocField,"Don't HTML Encode HTML tags like &lt;script&gt; or just characters like &lt; or &gt;, as they could be intentionally used in this field","Не HTML Възхвала HTML тагове като &lt;скрипт&gt; или просто символи като &lt;или&gt;, тъй като те биха могли да се използват съзнателно в тази област"
 apps/frappe/frappe/custom/doctype/customize_form/customize_form.js +268,Specify a default value,Посочете стойност по подразбиране
@@ -1811,7 +1811,7 @@ apps/frappe/frappe/www/update-password.html +100,Please enter the password,"Мо
 apps/frappe/frappe/www/print.py +83,Not allowed to print cancelled documents,Не е позволено да отпечатате анулирани документи
 apps/frappe/frappe/core/page/data_import_tool/exporter.py +268,Info:,Инфо:
 DocType: Custom Field,Permission Level,Разрешение Level
-DocType: User,Send Notifications for Transactions I Follow,Изпрати Съобщение за сделки I Follow
+DocType: User,Send Notifications for Transactions I Follow,"Изпращай ми известия за транзакции, които следя"
 apps/frappe/frappe/core/doctype/doctype/doctype.py +575,"{0}: Cannot set Submit, Cancel, Amend without Write","{0}: Cannot set Submit, Cancel, Amend without Write"
 apps/frappe/frappe/public/js/frappe/form/footer/attachments.js +83,Are you sure you want to delete the attachment?,"Сигурни ли сте, че искате да изтриете прикачения файл?"
 apps/frappe/frappe/model/delete_doc.py +178,"Cannot delete or cancel because {0} <a href=""#Form/{0}/{1}"">{1}</a> is linked with {2} <a href=""#Form/{2}/{3}"">{3}</a>","Не може да се изтрие или затвори, защото {0} <a href=""#Form/{0}/{1}"">{1}</a> е свързан с {2} <a href=""#Form/{2}/{3}"">{3}</a>"
@@ -1934,7 +1934,7 @@ apps/frappe/frappe/print/page/print_format_builder/print_format_builder_layout.h
 DocType: Workflow State,resize-small,преоразмеряване-малка
 apps/frappe/frappe/public/js/frappe/ui/editor.html +71,Horizontal Line Break,Horizontal Line Break
 DocType: Top Bar Item,Right,Дясно
-DocType: User,User Type,Потребителят Type
+DocType: User,User Type,Вид потребител
 apps/frappe/frappe/email/doctype/auto_email_report/auto_email_report.js +62,Click table to edit,"Кликнете на маса, за да редактирате"
 apps/frappe/frappe/core/page/user_permissions/user_permissions.js +68,Select User,Изберете потребителя
 DocType: Async Task,Reference Doc,Референтен Doc
@@ -2198,7 +2198,7 @@ DocType: Company History,Year,Година
 DocType: OAuth Client, Advanced Settings,Разширени настройки
 apps/frappe/frappe/website/doctype/website_settings/website_settings.py +34,{0} does not exist in row {1},{0} не съществува в ред {1}
 DocType: Event,Event Type,Тип на събитието
-DocType: User,Last Known Versions,Последно известно Версии
+DocType: User,Last Known Versions,Последни познати версии
 apps/frappe/frappe/config/setup.py +135,Add / Manage Email Accounts.,Добавяне / Управление на имейл акаунти.
 DocType: Blog Category,Published,Публикуван
 apps/frappe/frappe/templates/emails/auto_reply.html +1,Thank you for your email,Благодаря ви за вашия имейл
@@ -2230,7 +2230,7 @@ DocType: Dropbox Settings,Dropbox Settings,Настройки Dropbox
 DocType: About Us Settings,More content for the bottom of the page.,Повече съдържание за долната част на страницата.
 apps/frappe/frappe/public/js/frappe/request.js +229,Session Expired. Logging you out,Session изтекъл. Излизате
 DocType: Workflow,DocType on which this Workflow is applicable.,"DocType, на която тази Workflow е приложимо."
-DocType: User,Enabled,Enabled
+DocType: User,Enabled,Активен
 DocType: Tag Category,Category Name,Категория Име
 apps/frappe/frappe/email/doctype/email_group/email_group.js +11,Import Subscribers,Вносни Абонати
 DocType: Print Settings,PDF Settings,PDF Settings

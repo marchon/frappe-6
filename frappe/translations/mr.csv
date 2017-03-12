@@ -110,7 +110,7 @@ DocType: Workflow Action,Workflow Action Name,कार्यपद्धत क
 apps/frappe/frappe/core/doctype/doctype/doctype.py +210,DocType can not be merged,DocType विलीन करणे शक्य नाही
 DocType: Web Form Field,Fieldtype,Fieldtype
 apps/frappe/frappe/core/doctype/file/file.py +245,Not a zip file,नाही एक zip फाइल
-apps/frappe/frappe/utils/password_strength.py +164,Capitalization doesn't help very much.,भांडवल खूप मदत करत नाही.
+apps/frappe/frappe/utils/password_strength.py +164,Capitalization doesn't help very much.,कॅपिटल अक्षरांचा उपयोग खूप मदत करत नाही.
 DocType: Error Snapshot,Friendly Title,अनुकूल शीर्षक
 DocType: Newsletter,Email Sent?,ई-मेल पाठविले?
 apps/frappe/frappe/desk/form/save.py +50,Did not cancel,रद्द करू शकला नाही
@@ -506,7 +506,7 @@ apps/frappe/frappe/desk/like.py +38,You cannot like something that you created,�
 DocType: User,Last IP,गेल्या आयपी
 apps/frappe/frappe/core/page/usage_info/usage_info.js +20,Renew / Upgrade,/ अपग्रेड नूतनीकरण
 DocType: DocPerm,Filter records based on User Permissions defined for a user,वापरकर्ता परिभाषित वापरकर्ता परवानग्या आधारित फिल्टर रेकॉर्ड
-DocType: PayPal Settings,API Password,API पासवर्ड
+DocType: PayPal Settings,API Password,एपीआय परवलीचा शब्द
 apps/frappe/frappe/public/js/frappe/ui/editor.html +45,Insert picture (or just drag & drop),चित्र समाविष्ट करा (किंवा फक्त ड्रॅग आणि ड्रॉप)
 apps/frappe/frappe/custom/doctype/custom_field/custom_field.py +39,Fieldname not set for Custom Field,FIELDNAME सानुकूल फील्ड सेट नाही
 apps/frappe/frappe/public/js/frappe/model/model.js +22,Last Updated By,अंतिम द्वारे अद्यतनित
@@ -937,7 +937,7 @@ apps/frappe/frappe/email/doctype/auto_email_report/auto_email_report.py +77,{0} 
 apps/frappe/frappe/model/base_document.py +358,{0} must be unique,{0} अद्वितीय असणे आवश्यक आहे
 apps/frappe/frappe/permissions.py +269,Row,रो
 DocType: Workflow State,Check,चेक
-DocType: Razorpay Settings,API Key,API की
+DocType: Razorpay Settings,API Key,एपीआय किल्ली
 DocType: Email Account,Send unsubscribe message in email,ई-मेल मध्ये आपली नोंदणी रद्द संदेश पाठवा
 apps/frappe/frappe/public/js/frappe/form/toolbar.js +81,Edit Title,शीर्षक संपादित करा
 apps/frappe/frappe/desk/page/modules/modules.js +24,Install Apps,अनुप्रयोग स्थापित
@@ -2214,7 +2214,7 @@ apps/frappe/frappe/public/js/frappe/upload.js +112,Private or Public?,खाज�
 DocType: Footer Item,Contact,संपर्क
 DocType: User,Third Party Authentication,थर्ड पार्टी प्रमाणीकरण
 DocType: Website Settings,Banner is above the Top Menu Bar.,बॅनर शीर्ष मेनू बार वर आहे.
-DocType: Razorpay Settings,API Secret,API गुपित
+DocType: Razorpay Settings,API Secret,एपीआय गुपित
 apps/frappe/frappe/public/js/frappe/ui/toolbar/awesome_bar.js +274,{0} Calendar,{0} दिनदर्शिका
 DocType: Email Account,Port,पोर्ट
 DocType: Print Format,Arial,एरियल
@@ -2419,7 +2419,7 @@ DocType: Email Account,Email Server,ईमेल सर्व्हर
 DocType: DocShare,Document Type,दस्तऐवज प्रकार
 apps/frappe/frappe/core/page/usage_info/usage_info.html +37,Emails sent this month,ई-मेल या महिन्यात पाठविले
 apps/frappe/frappe/custom/doctype/custom_field/custom_field.py +18,Label is mandatory,लेबल करणे आवश्यक आहे
-DocType: PayPal Settings,API Username,API वापरकर्तानाव
+DocType: PayPal Settings,API Username,एपीआय सदस्यनाम
 apps/frappe/frappe/public/js/frappe/list/doclistview.js +505,Half Day,अर्धा दिवस
 DocType: Communication,Communication Type,संवाद प्रकार
 DocType: DocField,Unique,युनिक

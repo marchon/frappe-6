@@ -58,7 +58,7 @@ DocType: Communication,Unread Notification Sent,Notificació No llegit Enviat
 apps/frappe/frappe/public/js/frappe/misc/tools.js +8,Export not allowed. You need {0} role to export.,No es pot exportar. Cal el rol {0} per a exportar.
 DocType: Email Group,Email Group,Grup correu electrònic
 DocType: Note,Seen By,Vist per
-apps/frappe/frappe/public/js/frappe/ui/filters/filters.js +662,Not Like,Not Like
+apps/frappe/frappe/public/js/frappe/ui/filters/filters.js +662,Not Like,Not Com
 apps/frappe/frappe/custom/doctype/customize_form/customize_form.js +204,Set the display label for the field,Defineix l'etiqueta de visualització per al camp
 apps/frappe/frappe/model/document.py +892,Incorrect value: {0} must be {1} {2},Valor incorrecte: {0} ha de ser {1} {2}
 apps/frappe/frappe/config/setup.py +237,"Change field properties (hide, readonly, permission etc.)","Canviar les propietats de camp (amagar, de només lectura, el permís etc.)"
@@ -1203,7 +1203,7 @@ DocType: DocField,Text Editor,Editor de text
 apps/frappe/frappe/config/website.py +69,Settings for About Us Page.,Configuració de pàgina sobre nosaltres.
 apps/frappe/frappe/print/page/print_format_builder/print_format_builder.js +667,Edit Custom HTML,Edició de HTML personalitzat
 DocType: Error Snapshot,Error Snapshot,Instantània d&#39;error
-apps/frappe/frappe/public/js/frappe/ui/filters/filters.js +662,In,A
+apps/frappe/frappe/public/js/frappe/ui/filters/filters.js +662,In,En
 DocType: Email Alert,Value Change,Canvi de valor
 DocType: Standard Reply,Standard Reply,Resposta predefinida
 apps/frappe/frappe/custom/doctype/customize_form/customize_form.js +225,Width of the input box,Ample de la caixa d'entrada
@@ -1486,7 +1486,7 @@ DocType: Event,Every Week,Cada setmana
 apps/frappe/frappe/limits.py +188,Click here to check your usage or upgrade to a higher plan,Feu clic aquí per verificar el seu ús o actualitzar a un pla superior
 DocType: Custom Field,Is Mandatory Field,És un camp obligatori
 DocType: User,Website User,Lloc web de l'usuari
-apps/frappe/frappe/public/js/frappe/ui/filters/edit_filter.html +10,Not equals,No iguals
+apps/frappe/frappe/public/js/frappe/ui/filters/edit_filter.html +10,Not equals,No Equival
 DocType: Integration Request,Integration Request Service,Sol·licitud de Servei d&#39;Integració
 DocType: Website Script,Script to attach to all web pages.,Script to attach to all web pages.
 DocType: Web Form,Allow Multiple,Permetre múltiple
@@ -1739,7 +1739,7 @@ apps/frappe/frappe/custom/doctype/custom_field/custom_field.py +67,"Insert After
 DocType: Workflow State,signal,senyal
 DocType: DocType,Show Print First,Show Print First
 apps/frappe/frappe/desk/page/chat/chat_main.html +12,Ctrl + Enter to post,Ctrl + Retorn per publicar
-apps/frappe/frappe/public/js/frappe/form/link_selector.js +105,Make a new {0},Fer una nova {0}
+apps/frappe/frappe/public/js/frappe/form/link_selector.js +105,Make a new {0},Crear {0}
 apps/frappe/frappe/core/page/usage_info/usage_info.html +86,Size (MB),Mida (MB)
 DocType: Help Article,Author,autor
 apps/frappe/frappe/core/doctype/communication/communication.js +24,Reopen,Reobrir

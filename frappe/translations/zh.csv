@@ -1370,7 +1370,7 @@ apps/frappe/frappe/custom/doctype/customize_form/customize_form.js +71,Refresh F
 DocType: DocField,Select,选择
 apps/frappe/frappe/utils/csvutils.py +27,File not attached,文件未附加
 apps/frappe/frappe/utils/password_strength.py +87,"Repeats like ""aaa"" are easy to guess",像“AAA”重复很容易被猜到
-DocType: Top Bar Item,"If you set this, this Item will come in a drop-down under the selected parent.",如果勾选，这个品目将出现在选定上级的下级菜单。
+DocType: Top Bar Item,"If you set this, this Item will come in a drop-down under the selected parent.",如果勾选，这个项目将出现在选定上级的下级菜单。
 DocType: Print Format,Show Section Headings,显示部分标题
 DocType: Bulk Update,Limit,限制
 apps/frappe/frappe/model/db_query.py +484,Please select atleast 1 column from {0} to sort,请从{0}进行排序至少选择1列
@@ -1462,7 +1462,7 @@ apps/frappe/frappe/email/doctype/newsletter/newsletter.py +160,Confirmed,确认
 DocType: Event,Ends on,结束于
 DocType: Website Settings,"Added HTML in the &lt;head&gt; section of the web page, primarily used for website verification and SEO",在&lt;head&gt;添加HTML网页的部分，主要用于网站的验证和搜索引擎优化
 apps/frappe/frappe/core/doctype/error_snapshot/error_snapshot_list.js +9,Relapsed,复发
-apps/frappe/frappe/utils/nestedset.py +181,Item cannot be added to its own descendents,品目不能被添加到自己的后代
+apps/frappe/frappe/utils/nestedset.py +181,Item cannot be added to its own descendents,项目不能被添加到自己的后代
 apps/frappe/frappe/public/js/frappe/views/reports/reportview.js +524,Show Totals,显示总计
 DocType: Error Snapshot,Relapses,复发
 DocType: Social Login Keys,Frappe Server URL,冰沙服务器URL

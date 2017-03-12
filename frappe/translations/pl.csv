@@ -1316,7 +1316,7 @@ apps/frappe/frappe/core/page/data_import_tool/data_import_main.html +65,"Do not 
 apps/frappe/frappe/public/js/frappe/form/footer/assign_to.js +140,Assign to me,Przypisanie do mnie
 apps/frappe/frappe/core/doctype/file/file_list.js +81,Edit Folder,Edycja folderów
 DocType: DocField,Dynamic Link,Link dynamiczny
-apps/frappe/frappe/core/page/background_jobs/background_jobs_outer.html +5,Show failed jobs,Pokaż udało pracy
+apps/frappe/frappe/core/page/background_jobs/background_jobs_outer.html +5,Show failed jobs,Pokaż prace które się nie powiodły
 apps/frappe/frappe/public/js/frappe/form/footer/timeline_item.html +57,Details,Szczegóły
 DocType: Property Setter,DocType or Field,DocType albo Pole
 DocType: Communication,Soft-Bounced,Soft-odbił
@@ -1540,7 +1540,7 @@ DocType: Social Login Keys,Frappe Client Secret,Frappe Tajny Klient
 apps/frappe/frappe/core/page/permission_manager/permission_manager_help.html +22,Permission Levels,Poziomy dostępu
 DocType: Workflow State,Warning,Ostrzeżenie
 apps/frappe/frappe/desk/page/setup_wizard/setup_wizard.js +555,You will use it to Login,Będzie go używać do logowania
-DocType: Tag Category,Tag Category,tag Kategoria
+DocType: Tag Category,Tag Category,Kategoria oznaczeń
 apps/frappe/frappe/public/js/frappe/views/reports/grid_report.js +813,"Ignoring Item {0}, because a group exists with the same name!","Zignoruj Element {0}, ponieważ istnieje grupa o tej samej nazwie!"
 DocType: DocType,In Dialog,
 apps/frappe/frappe/custom/doctype/customize_form/customize_form.js +192,Help,Pomoc
@@ -2034,7 +2034,7 @@ apps/frappe/frappe/www/login.html +68,Sign up.,Rejestracja.
 DocType: Email Account,Add Signature,Dodaj podpis
 apps/frappe/frappe/email/doctype/email_unsubscribe/email_unsubscribe.py +38,Left this conversation,Opuścił tę rozmowę
 apps/frappe/frappe/core/page/permission_manager/permission_manager.js +474,Did not set,Nie ustawiono
-,Background Jobs,Praca w tle
+,Background Jobs,Prace w tle
 DocType: ToDo,ToDo,Do zrobienia
 DocType: DocField,No Copy,Brak kopii
 DocType: Workflow State,qrcode,Kod QR
@@ -2198,7 +2198,7 @@ apps/frappe/frappe/print/page/print_format_builder/print_format_builder_sidebar.
 DocType: Workflow State,bold,Pogrubiony
 DocType: Async Task,Status,Status
 DocType: Company History,Year,Rok
-DocType: OAuth Client, Advanced Settings,Zaawansowane ustawienia
+DocType: OAuth Client, Advanced Settings,Ustawienia zaawansowane
 apps/frappe/frappe/website/doctype/website_settings/website_settings.py +34,{0} does not exist in row {1},{0} nie istnieje w linii {1}
 DocType: Event,Event Type,Typ wydarzenia
 DocType: User,Last Known Versions,Ostatnio znane wersje

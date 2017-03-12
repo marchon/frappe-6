@@ -311,7 +311,7 @@ DocType: Auto Email Report,No of Rows (Max 500),No se de filas (máx 500)
 DocType: Language,Language Code,Código de lenguaje
 apps/frappe/frappe/public/js/frappe/ui/toolbar/toolbar.js +251,"Your download is being built, this may take a few moments...","Iniciando descarga, esto puede tardar unos segundos..."
 apps/frappe/frappe/utils/data.py +544,{0} and {1},{0} y {1}
-DocType: Print Settings,"Always add ""Draft"" Heading for printing draft documents",Siempre agregue &quot;Proyecto de&quot; Rumbo a proyectos de impresión de documentos
+DocType: Print Settings,"Always add ""Draft"" Heading for printing draft documents","Agregar siempre ""Borrador"" al imprimir borradores de documentos"
 DocType: Version,Docname,docName
 apps/frappe/frappe/core/doctype/version/version.js +10,Version restored,Versión restaurada
 DocType: About Us Settings,Website Manager,Administrar página web
@@ -441,7 +441,7 @@ apps/frappe/frappe/desk/query_report.py +19,You don't have access to Report: {0}
 DocType: User,Send Welcome Email,Enviar Email de bienvenida
 apps/frappe/frappe/core/page/user_permissions/user_permissions.js +132,Upload CSV file containing all user permissions in the same format as Download.,Debe subir un archivo CSV que contenga todos los permisos de usuario en el mismo formato que lo descargo.
 apps/frappe/frappe/public/js/frappe/ui/filters/filters.js +630,Remove Filter,Eliminar filtro
-apps/frappe/frappe/config/setup.py +108,Bulk Rename,Bulk Rename
+apps/frappe/frappe/config/setup.py +108,Bulk Rename,Renombrar en Masa
 DocType: Email Queue,Show as cc,Mostrar como cc
 DocType: DocField,Heading,Encabezado
 DocType: Workflow State,resize-vertical,resize-vertical
@@ -738,7 +738,7 @@ DocType: DocField,"For Links, enter the DocType as range.
 For Select, enter list of Options, each on a new line.","Para enlaces, introduzca el 'DocType' como rango. para seleccionar, ingrese lista de opciones, cada uno en una nueva línea."
 DocType: Workflow State,film,Película
 apps/frappe/frappe/model/db_query.py +361,No permission to read {0},No tiene permiso para leer {0}
-apps/frappe/frappe/public/js/frappe/misc/pretty_date.js +54,&gt; {0} year(s) ago,Hace&gt; {0} año (s)
+apps/frappe/frappe/public/js/frappe/misc/pretty_date.js +54,&gt; {0} year(s) ago,Hace {0} año(s)
 apps/frappe/frappe/config/desktop.py +8,Tools,Herramientas
 apps/frappe/frappe/utils/password_strength.py +111,Avoid recent years.,Evitar los últimos años.
 apps/frappe/frappe/utils/nestedset.py +229,Multiple root nodes not allowed.,No se permiten múltiples nodos principales

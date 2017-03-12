@@ -359,7 +359,7 @@ apps/frappe/frappe/core/report/permitted_documents_for_user/permitted_documents_
 apps/frappe/frappe/core/doctype/doctype/doctype.py +479,Timeline field must be a Link or Dynamic Link,Časovnica polje mora biti Link ali Dynamic Link
 apps/frappe/frappe/integrations/doctype/dropbox_settings/dropbox_settings.py +49,Please install dropbox python module,Prosimo namestite varno shrambo python modul
 apps/frappe/frappe/public/js/frappe/list/list_sidebar.html +22,Gantt,Ganttov
-apps/frappe/frappe/templates/generators/web_form.html +302,Page {0} of {1},Page {0} od {1}
+apps/frappe/frappe/templates/generators/web_form.html +302,Page {0} of {1},Stran {0} od {1}
 DocType: About Us Settings,Introduce your company to the website visitor.,Predstavite vaše podjetje v spletni obiskovalec.
 apps/frappe/frappe/public/js/frappe/form/workflow.js +116,To,Če želite
 apps/frappe/frappe/model/rename_doc.py +352,Successful: {0} to {1},Uspešna: {0} do {1}
@@ -1471,7 +1471,7 @@ apps/frappe/frappe/public/js/frappe/form/workflow.js +36,Document is only editab
 apps/frappe/frappe/desk/form/assign_to.py +146,"The task {0}, that you assigned to {1}, has been closed by {2}.","Naloga {0}, ki jo dodeli {1}, je bil zaprt z {2}."
 DocType: Print Format,Show Line Breaks after Sections,Prikaži Prelomi vrstic po oddelkih
 DocType: Blogger,Short Name,Kratko ime
-apps/frappe/frappe/templates/generators/web_form.html +232,Page {0},Page {0}
+apps/frappe/frappe/templates/generators/web_form.html +232,Page {0},Stran {0}
 apps/frappe/frappe/core/page/usage_info/usage_info.html +95,Files Size,datoteke Velikost
 DocType: Workflow State,magnet,magnet
 apps/frappe/frappe/geo/doctype/currency/currency.js +7,This Currency is disabled. Enable to use in transactions,Ta valuta je onemogočena. Omogoči za uporabo v transakcijah
@@ -2049,7 +2049,7 @@ DocType: Website Settings,Top Bar Items,Top Bar Items
 DocType: Print Settings,Print Settings,Nastavitve tiskanja
 DocType: Page,Yes,Da
 DocType: DocType,Max Attachments,Max Priključki
-DocType: Desktop Icon,Page,Page
+DocType: Desktop Icon,Page,Stran
 apps/frappe/frappe/utils/bot.py +122,Could not find {0} in {1},Ni bilo mogoče najti {0} v {1}
 apps/frappe/frappe/utils/password_strength.py +158,Names and surnames by themselves are easy to guess.,Imena in priimki po sebi je lahko uganiti.
 apps/frappe/frappe/config/website.py +89,Knowledge Base,Baza znanja

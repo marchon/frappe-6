@@ -75,7 +75,7 @@ DocType: Desktop Icon,Color,Culoare
 apps/frappe/frappe/public/js/frappe/views/reports/query_report.js +53,For ranges,Pentru intervale
 DocType: Workflow State,indent-right,liniuța-dreapta
 apps/frappe/frappe/public/js/frappe/ui/upload.html +12,Web Link,Web Link
-apps/frappe/frappe/public/js/frappe/misc/pretty_date.js +46,1 minute ago,1 분 전
+apps/frappe/frappe/public/js/frappe/misc/pretty_date.js +46,1 minute ago,in urma cu 1 minut
 apps/frappe/frappe/core/page/data_import_tool/data_import_main.html +46,"Recommended bulk editing records via import, or understanding the import format.","Înregistrările de editare în masă recomandate prin import, sau înțelegerea formatul de import."
 apps/frappe/frappe/core/page/permission_manager/permission_manager_help.html +36,"Apart from System Manager, roles with Set User Permissions right can set permissions for other users for that Document Type.","În afară de System Manager, roluri cu un set permisiunile de user poate seta permisiuni pentru alți utilizatori pentru acest tip de document."
 DocType: Company History,Company History,Istoricul companiei
@@ -497,7 +497,7 @@ apps/frappe/frappe/config/setup.py +84,Log of error during requests.,Log de eroa
 apps/frappe/frappe/email/doctype/newsletter/newsletter.py +30,Scheduled to send to {0},Programat pentru a trimite la {0}
 DocType: DocShare,Everyone,Toată lumea
 DocType: Workflow State,backward,în sens invers
-apps/frappe/frappe/core/doctype/doctype/doctype.py +553,"{0}: Only one rule allowed with the same Role, Level and {1}","{0}: Doar o regulă permis cu același rol, nivel și {1}"
+apps/frappe/frappe/core/doctype/doctype/doctype.py +553,"{0}: Only one rule allowed with the same Role, Level and {1}","{0}: Doar o regulă permisa cu același rol, nivel și {1}"
 apps/frappe/frappe/templates/includes/comments/comments.html +7,No comments yet. Start a new discussion.,Nici un comentariu pana acum. Începe o nouă discuție.
 DocType: Workflow State,share,Distribuiţi
 apps/frappe/frappe/limits.py +28,"Your subscription expired on {0}. To renew, please send an email to {1}.","Abonamentul dvs. a expirat la {0}. Pentru a reînnoi, vă rugăm să trimiteți un e-mail la {1}."
@@ -1182,7 +1182,7 @@ DocType: Event,Friday,Vineri
 DocType: Report,Add Total Row,Adăugaţi rândul total
 apps/frappe/frappe/core/page/permission_manager/permission_manager_help.html +19,For example if you cancel and amend INV004 it will become a new document INV004-1. This helps you to keep track of each amendment.,"De exemplu, dacă anulați și modifice INV004 va deveni un nou document de INV004-1. Acest lucru vă ajută să urmăriți de fiecare amendament."
 apps/frappe/frappe/config/setup.py +150,Setup Reports to be emailed at regular intervals,Rapoartele de configurare pentru a fi trimise la intervale regulate
-DocType: Workflow Document State,0 - Draft; 1 - Submitted; 2 - Cancelled,0 - 초안; 1 - 승인; 2 - 취소
+DocType: Workflow Document State,0 - Draft; 1 - Submitted; 2 - Cancelled,0 - Draft; 1 - Trimis; 2 - Anulat
 DocType: File,Attached To DocType,Atașat tipuli de document
 DocType: DocField,Int,Int
 DocType: Error Log,Title,Titlu
@@ -1944,7 +1944,7 @@ apps/frappe/frappe/desk/form/save.py +34,Did not save,Nu a salvat
 DocType: Property Setter,Property,Proprietate
 DocType: Email Account,Yandex.Mail,Yandex.Mail
 DocType: Website Slideshow,"Note: For best results, images must be of the same size and width must be greater than height.","Notă: Pentru rezultate optime, imaginile trebuie să fie de aceeași dimensiune și lățime trebuie să fie mai mare decât înălțimea."
-DocType: DocType,Auto Name,Auto nume
+DocType: DocType,Auto Name,Nume automat
 apps/frappe/frappe/utils/password_strength.py +103,Avoid sequences like abc or 6543 as they are easy to guess,"Evita secvențe, cum ar fi ABC sau 6543, deoarece acestea sunt ușor de ghicit"
 apps/frappe/frappe/public/js/frappe/request.js +93,Please try again,Vă rugăm să încercați din nou
 apps/frappe/frappe/custom/doctype/custom_field/custom_field.js +55,Option 3,Opțiunea 3
@@ -2150,7 +2150,7 @@ apps/frappe/frappe/public/js/frappe/views/communication.js +294,Add Attachment,A
 DocType: Communication,Email,Email
 apps/frappe/frappe/templates/includes/contact.js +30,Thank you for your message,Vă mulțumim pentru mesajul dvs.
 apps/frappe/frappe/www/login.py +64,Invalid Login Token,Invalid Autentificare Token
-apps/frappe/frappe/public/js/frappe/misc/pretty_date.js +48,1 hour ago,1 시간 전
+apps/frappe/frappe/public/js/frappe/misc/pretty_date.js +48,1 hour ago,in urma cu 1 ora
 DocType: Social Login Keys,Frappe Client ID,Frappe ID-ul client
 DocType: Website Settings,Home Page,Pagina principală
 DocType: Error Snapshot,Parent Error Snapshot,Mamă Instantaneu Eroare

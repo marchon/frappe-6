@@ -33,7 +33,7 @@ DocType: DocPerm,This role update User Permissions for a user,Tato role aktualiz
 apps/frappe/frappe/public/js/frappe/model/model.js +476,Rename {0},Pemenovať: {0}
 DocType: Workflow State,zoom-out,Zmenšiť
 apps/frappe/frappe/public/js/legacy/form.js +66,Cannot open {0} when its instance is open,Nemůžete otevřít: {0} když je otevřena instance
-apps/frappe/frappe/model/document.py +901,Table {0} cannot be empty,Tabulka: {0} nemůže být prázdná
+apps/frappe/frappe/model/document.py +901,Table {0} cannot be empty,Tabuľka: {0} nemôže byť prázdna
 DocType: Integration Service Parameter,Parameter,Parametr
 apps/frappe/frappe/public/js/frappe/views/reports/grid_report.js +848,With Ledgers,S deníky
 apps/frappe/frappe/public/js/frappe/list/list_sidebar.html +20,Images,snímky
@@ -1704,7 +1704,7 @@ apps/frappe/frappe/www/login.html +93,Back to Login,Späť na prihlásenie
 apps/frappe/frappe/model/rename_doc.py +115,You need write permission to rename,Potrebujete oprávnenie k zápisu na premenovanie
 apps/frappe/frappe/core/page/permission_manager/permission_manager.js +433,Apply Rule,Použiť pravidlo
 DocType: User,Karma,Karma
-DocType: DocField,Table,Tabulka
+DocType: DocField,Table,Tabuľka
 DocType: File,File Size,Velikost souboru
 apps/frappe/frappe/website/doctype/web_form/web_form.py +388,You must login to submit this form,Musíte se přihlásit pro odeslání tohoto formuláře
 DocType: User,Background Image,Obrázok na pozadí
@@ -2119,7 +2119,7 @@ apps/frappe/frappe/core/page/data_import_tool/data_import_main.html +21,Select A
 apps/frappe/frappe/config/setup.py +247,Custom Translations,vlastné Preklady
 apps/frappe/frappe/public/js/frappe/form/linked_with.js +86,Not Linked to any record.,Není provázáno s žádným záznamem.
 apps/frappe/frappe/public/js/frappe/socketio_client.js +42,Progress,pokrok
-apps/frappe/frappe/public/js/frappe/form/workflow.js +32, by Role ,(kým) rolí
+apps/frappe/frappe/public/js/frappe/form/workflow.js +32, by Role ,Rolou
 apps/frappe/frappe/core/doctype/user/user.py +585,Registered but disabled.,Registrováno ale vypnuto.
 apps/frappe/frappe/public/js/frappe/list/doclistview.js +840,Delete permanently?,Zmazať trvalo?
 apps/frappe/frappe/core/doctype/doctype/doctype.py +159,Invalid fieldname '{0}' in autoname,Neplatný fieldname &#39;{0}&#39; v autoname

@@ -152,7 +152,7 @@ apps/frappe/frappe/custom/doctype/customize_form/customize_form.js +230,Reqd,Req
 apps/frappe/frappe/core/doctype/communication/email.py +250,Unable to find attachment {0},Incapaz de encontrar apego {0}
 apps/frappe/frappe/custom/doctype/customize_form/customize_form.js +218,Assign a permission level to the field.,Atribuir um nível de permissão ao campo.
 apps/frappe/frappe/public/js/frappe/request.js +75,The resource you are looking for is not available,O recurso que você está procurando não está disponível
-apps/frappe/frappe/config/setup.py +44,Show / Hide Modules,Weergeven / verbergen Modules
+apps/frappe/frappe/config/setup.py +44,Show / Hide Modules,Mostrar / Esconder Modulos
 apps/frappe/frappe/core/doctype/report/report.js +37,Disable Report,Desativar Relatório
 DocType: Website Theme,Apply Text Styles,Aplicar Estilos de Texto
 DocType: PayPal Settings,Redirect To,redirecionar para
@@ -483,7 +483,7 @@ DocType: Communication,Reference Name,Nome de Referência
 apps/frappe/frappe/public/js/frappe/toolbar.js +32,Chat Support,Apoio de Chat
 DocType: Error Snapshot,Exception,Exceção
 DocType: Email Account,Use IMAP,Use IMAP
-apps/frappe/frappe/integrations/doctype/social_login_keys/social_login_keys.py +24,Unable to make request to the Frappe Server URL,Não é possível fazer pedido para o URL Frappe Servidor
+apps/frappe/frappe/integrations/doctype/social_login_keys/social_login_keys.py +24,Unable to make request to the Frappe Server URL,Não é possível fazer pedido para o URL do Servidor Frappe
 DocType: Integration Request,Authorized,Autorizado
 DocType: DocType,Single Types have only one record no tables associated. Values are stored in tabSingles,singulares somente tem um unico registo associado. Os Valores são guardados em TabSingles
 DocType: Web Form,"List as [{""label"": _(""Jobs""), ""route"":""jobs""}]","Lista como [{ &quot;label&quot;: _ ( &quot;Jobs&quot;), &quot;route&quot;: &quot;empregos&quot;}]"
@@ -1686,7 +1686,7 @@ DocType: DocType,"Naming Options:
 <ol><li><b>field:[fieldname]</b> - By Field</li><li><b>naming_series:</b> - By Naming Series (field called naming_series must be present</li><li><b>Prompt</b> - Prompt user for a name</li><li><b>[series]</b> - Series by prefix (separated by a dot); for example PRE.#####</li></ol>",Opções de nomenclatura: <ol><li> <b>campo: [nome do campo]</b> - Por Campos </li><li> <b>naming_series:</b> - nomeando Series (campo chamado naming_series deve estar presente </li><li> <b>Prompt</b> - Avisar usuário para um nome </li><li> <b>[série]</b> - Série de prefixo (separadas por um ponto); por exemplo PRE. ##### </li></ol>
 DocType: Blog Post,Email Sent,Email Enviado
 DocType: DocField,Ignore XSS Filter,Ignorar Filtro XSS
-apps/frappe/frappe/public/js/frappe/views/communication.js +64,Send As Email,Verstuur als e-mail
+apps/frappe/frappe/public/js/frappe/views/communication.js +64,Send As Email,Enviar como Email
 DocType: Website Theme,Link Color,Cor do Link
 apps/frappe/frappe/core/doctype/user/user.py +95,User {0} cannot be disabled,O utilizador {0} não pode ser desativado
 apps/frappe/frappe/core/doctype/user/user.py +718,"Dear System Manager,","Caro Administrador de Sistema,"
@@ -1829,7 +1829,7 @@ DocType: Email Account,Use TLS,Usar TLS
 apps/frappe/frappe/email/smtp.py +24,Invalid login or password,Login ou Senha Inválidos
 apps/frappe/frappe/config/setup.py +254,Add custom javascript to forms.,Adicione javascript personalizado aos formulários.
 apps/frappe/frappe/public/js/frappe/views/reports/query_report.js +432,Sr No,Sr n
-,Role Permissions Manager,Permissions da Função de Gestor
+,Role Permissions Manager,Permissões da Função de Gestor
 apps/frappe/frappe/print/page/print_format_builder/print_format_builder.js +117,Name of the new Print Format,Nome do novo Formato de Impressão
 apps/frappe/frappe/public/js/frappe/form/control.js +977,Clear Attachment,Limpar Anexo
 apps/frappe/frappe/core/page/data_import_tool/exporter.py +266,Mandatory:,Obrigatório:
@@ -2409,7 +2409,7 @@ DocType: Blog Settings,Blog Introduction,Introdução do Blog
 apps/frappe/frappe/desk/moduleview.py +73,Standard Reports,Relatórios padrão
 DocType: User,Email Settings,Definições de Email
 apps/frappe/frappe/integrations/doctype/ldap_settings/ldap_settings.py +143,Not a valid LDAP user,Não é um usuário LDAP válida
-apps/frappe/frappe/workflow/doctype/workflow/workflow.py +57,{0} not a valid State,{0} não é um status válido
+apps/frappe/frappe/workflow/doctype/workflow/workflow.py +57,{0} not a valid State,{0} não é um estado válido
 apps/frappe/frappe/core/doctype/doctype/doctype.py +426,Search field {0} is not valid,campo de pesquisa {0} não é válido
 DocType: Workflow State,ok-circle,círculo-ok
 apps/frappe/frappe/utils/bot.py +127,You can find things by asking 'find orange in customers',"Você pode encontrar as coisas, pedindo &quot;encontrar laranja em clientes &#39;"

@@ -550,7 +550,7 @@ DocType: Web Page,0 is highest,0 en üsttedir
 apps/frappe/frappe/www/login.html +91,Send Password,Şifre gönder
 apps/frappe/frappe/public/js/frappe/form/templates/form_sidebar.html +38,Attachments,Eklentiler
 apps/frappe/frappe/website/doctype/web_form/web_form.py +133,You don't have the permissions to access this document,Bu dokümana erişim izniniz yok
-DocType: Language,Language Name,dil adı
+DocType: Language,Language Name,Dil Adı
 DocType: Email Group Member,Email Group Member,Grup Üyesi e-posta
 DocType: Email Alert,Value Changed,Değer Değişti
 apps/frappe/frappe/model/base_document.py +307,Duplicate name {0} {1},Çoğaltın adı {0} {1}
@@ -1498,7 +1498,7 @@ apps/frappe/frappe/public/js/frappe/ui/toolbar/navbar.html +32,View Website,Webs
 DocType: Workflow State,remove,Kaldır
 DocType: Email Account,If non standard port (e.g. 587),standart olmayan bağlantı noktası (örneğin 587)
 apps/frappe/frappe/public/js/frappe/form/toolbar.js +149,Reload,Yeniden yükle
-apps/frappe/frappe/config/setup.py +265,Add your own Tag Categories,Kendi Etiket Kategoriler ekle
+apps/frappe/frappe/config/setup.py +265,Add your own Tag Categories,Kendi Etiket Kategorileri'nizi ekleyin
 apps/frappe/frappe/core/page/usage_info/usage_info.html +103,Total,Toplam
 apps/frappe/frappe/core/page/usage_info/usage_info.html +103,Total,Toplam
 DocType: Event,Participants,Katılımcılar

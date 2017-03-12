@@ -1522,7 +1522,7 @@ apps/frappe/frappe/templates/emails/password_reset.html +4,Please click on the f
 DocType: Email Alert,Days After,පසු දින
 DocType: Contact Us Settings,Settings for Contact Us Page,සඳහා අප අමතන්න පිටුව සැකසුම්
 DocType: Custom Script,Script Type,කේත රචනය වර්ගය
-apps/frappe/frappe/public/js/frappe/misc/pretty_date.js +52,{0} weeks ago,{0} සති කිහිපයකට පෙර
+apps/frappe/frappe/public/js/frappe/misc/pretty_date.js +52,{0} weeks ago,සති {0}ට පෙර
 DocType: Email Account,Footer,පාදකය
 apps/frappe/frappe/utils/verified_command.py +42,Invalid Link,වලංගු නොවන ලින්ක්
 DocType: Web Page,Show Title,හිමිකම් පෙන්වන්න
@@ -2196,7 +2196,7 @@ DocType: Workflow State,bold,තද
 DocType: Async Task,Status,තත්ත්වය
 DocType: Company History,Year,අවුරුදු
 DocType: OAuth Client, Advanced Settings,උසස් සිටුවම්
-apps/frappe/frappe/website/doctype/website_settings/website_settings.py +34,{0} does not exist in row {1},{0} පේළියේ නොපවතියි {1}
+apps/frappe/frappe/website/doctype/website_settings/website_settings.py +34,{0} does not exist in row {1},{1} පේළියේ {0} නොපවතියි
 DocType: Event,Event Type,අවස්ථාවට වර්ගය
 DocType: User,Last Known Versions,පසුගිය හඳුනාගත් සංස්කරණ
 apps/frappe/frappe/config/setup.py +135,Add / Manage Email Accounts.,එකතු කරන්න / විද්යුත් ගිණුම් කළමනාකරණය කරන්න.

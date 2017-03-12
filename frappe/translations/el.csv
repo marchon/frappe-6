@@ -1196,7 +1196,7 @@ apps/frappe/frappe/core/doctype/user/user.py +593,"Too many users signed up rece
 apps/frappe/frappe/core/page/permission_manager/permission_manager.js +370,Add New Permission Rule,Προσθήκη νέου κανόνα άδειας
 apps/frappe/frappe/public/js/frappe/form/link_selector.js +24,You can use wildcard %,Μπορείτε να χρησιμοποιήσετε το χαρακτήρα μπαλαντέρ%
 apps/frappe/frappe/public/js/frappe/upload.js +131,"Only image extensions (.gif, .jpg, .jpeg, .tiff, .png, .svg) allowed","Μόνο επεκτάσεις εικόνα (.gif, .jpg, .jpeg, .tiff, .png, .svg) επιτρέπονται"
-DocType: DocType,Database Engine,μηχανισμό διαχείρισης βάσεων δεδομένων
+DocType: DocType,Database Engine,Μηχανισμός διαχείρισης βάσης δεδομένων
 DocType: Customize Form,"Fields separated by comma (,) will be included in the ""Search By"" list of Search dialog box","Τα πεδία που χωρίζονται με κόμμα (,) θα περιληφθούν στο πρόγραμμα &quot;Αναζήτηση Με&quot; λίστα παράθυρο διαλόγου Αναζήτηση"
 apps/frappe/frappe/website/doctype/website_theme/website_theme.py +35,Please Duplicate this Website Theme to customize.,Παρακαλούμε Διπλότυπο αυτή την ιστοσελίδα θέμα να προσαρμόσετε.
 DocType: DocField,Text Editor,Επεξεργαστής κειμένου
@@ -1688,7 +1688,7 @@ DocType: DocField,Ignore XSS Filter,Αγνοήστε XSS φίλτρο
 apps/frappe/frappe/public/js/frappe/views/communication.js +64,Send As Email,Αποστολή ως e-mail
 DocType: Website Theme,Link Color,Χρώμα δεσμού
 apps/frappe/frappe/core/doctype/user/user.py +95,User {0} cannot be disabled,Ο χρήστης {0} δεν μπορεί να απενεργοποιηθεί
-apps/frappe/frappe/core/doctype/user/user.py +718,"Dear System Manager,","Αγαπητέ Διευθυντής του Συστήματος,"
+apps/frappe/frappe/core/doctype/user/user.py +718,"Dear System Manager,","Αγαπητέ Διευθυντή του Συστήματος,"
 DocType: Event,Sunday,Κυριακή
 DocType: LDAP Settings,LDAP Settings,Ρυθμίσεις LDAP
 apps/frappe/frappe/public/js/frappe/form/save.js +14,Amending,Για την τροποποίηση του
